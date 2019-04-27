@@ -18,5 +18,5 @@ mongoose.connect(keys.MONGO_URL);
 require('./routes/personasRoutes')(app);
 
 
-app.listen(process.env.PORTM9 || 5000); // Puerto: 5000 -> back, 3000 -> front 
+app.listen(process.env.PORT || 5000); // Puerto: 5000 -> back, 3000 -> front 
 
